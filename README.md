@@ -135,7 +135,7 @@ where:
 * `N` is the number of simulated parameter points;
 * `param[:,0]` contains $(\theta_{12}$ in degrees;
 * `param[:,1]` contains $\Delta m^2_{21}$ in $\mathrm{eV}^2$;
-* `U_Evol[n]` contains the corresponding three-channel $192\times192$ Earth-matter evolution/probability map for the \(n\)-th parameter point. See the papers for details
+* `U_Evol[n]` contains the corresponding three-channel $192\times192$ Earth-matter evolution/probability map for the $n$-th parameter point. See the papers for details
 
 
 ### Raw simulation file
