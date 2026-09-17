@@ -1,0 +1,22 @@
+# Test file for solar flux probabilities
+
+# @author: Michele Lucente <lucente@physik.rwth-aachen.de>
+# @author Tomas Gonzalo <tomas.gonzalo@kit.edu>
+
+Energy: 15
+
+Neutrinos:
+
+  dm21: 7.42e-05
+  dm3l: 2.51e-03
+  theta12: 5.83638e-01
+  theta23: 8.5521e-01
+  theta13: 1.49575e-01
+  delta: 3.40339
+
+Solar:
+
+  fraction: "hep"
+  flux: true
+  spectrum: "distorted"
+  spectra: {"8B": "Data/8B_shape_Winter_et_al.csv"}
