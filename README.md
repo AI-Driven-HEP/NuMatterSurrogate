@@ -61,7 +61,7 @@ NuMatterSurrogate/
 
 Trained model checkpoint and example simulation data are provided for inference.
 
-Download the required files from **[https://drive.google.com/drive/folders/1BBFnau1E0aTwuvnIssopqG1Jy6ZuHxcX?usp=sharing]** and follow the example notebooks to load the trained model and generate the Earth-matter transition-probability maps for different oscillation parameters.
+Download the required files from **[Google Drive](https://drive.google.com/drive/folders/1BBFnau1E0aTwuvnIssopqG1Jy6ZuHxcX?usp=sharing)** and follow the example notebooks to load the trained model and generate the Earth-matter transition-probability maps for different oscillation parameters.
 
 
 # Training Mode
