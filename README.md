@@ -59,9 +59,10 @@ NuMatterSurrogate/
 
 # Inference Mode
 
-Download the best checkpoints and simulation data from here :
+Trained model checkpoint and example simulation data are provided for inference.
 
-see the notebooks for instructions examples
+Download the required files from **[https://drive.google.com/drive/folders/1BBFnau1E0aTwuvnIssopqG1Jy6ZuHxcX?usp=sharing]** and follow the example notebooks to load the trained model and generate the Earth-matter transition-probability maps for different oscillation parameters.
+
 
 # Training Mode
 
