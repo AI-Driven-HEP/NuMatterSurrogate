@@ -1,4 +1,4 @@
-# NuMatterSurrogate
+# A Surrogate Model to Solar Neutrino Earth Matter Effect
 
 **NuMatterSurrogate** is a machine-learning-based surrogate model for simulating the propagation of solar neutrinos through the Earth and the resulting matter effects.
 
