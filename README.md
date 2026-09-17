@@ -1,10 +1,6 @@
 # A Surrogate Model to Solar Neutrino Earth Matter Effect
 
-A machine-learning-based surrogate model for simulating the propagation of solar neutrinos through the Earth and the resulting matter effects.
-
-The propagation of solar neutrinos through the Earth requires solving the neutrino flavor-evolution equation in a medium with a position-dependent matter density. Although the numerical calculation for an individual neutrino energy, trajectory, and oscillation-parameter point is relatively inexpensive, repeatedly solving the evolution equation over a multidimensional parameter space can become computationally expensive.
-
-This project develops a **parameter-conditioned neural-network surrogate** that learns the mapping between neutrino oscillation parameters and the corresponding Earth-matter evolution. Instead of solving the evolution equation numerically for every parameter point, the trained model provides a fast approximation of the resulting neutrino transition probabilities.
+A parameter conditioned convolutional neural network with a ResNet based encoder--decoder architecture for simulating the propagation of solar neutrinos through the Earth and the resulting matter effects.
 
 The current implementation focuses on the Earth-matter effect on solar neutrinos and predicts the energy- and trajectory-dependent neutrino transition probabilities from the relevant oscillation parameters.
 
