@@ -60,7 +60,7 @@ NuMatterSurrogate/
 
 # Inference Mode
 
-1. Download the required files from [Google Drive]([YOUR_LINK_HERE](https://drive.google.com/drive/folders/1BBFnau1E0aTwuvnIssopqG1Jy6ZuHxcX?usp=sharing).
+1. Download the required files from [Google Drive](https://drive.google.com/drive/folders/1BBFnau1E0aTwuvnIssopqG1Jy6ZuHxcX?usp=sharing).
 2. Place the downloaded `best_model.pt` file in the `checkpoints/` directory:
 
 ```text
