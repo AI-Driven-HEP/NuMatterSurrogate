@@ -14,13 +14,6 @@ The NuMatterSurrogate training and inference code requires:
 * NumPy
 * PyTorch
 
-Install the basic dependencies with:
-
-```bash
-pip install numpy torch
-```
-
-PyTorch automatically uses a CUDA GPU when one is available.
 
 If the training data are generated with **PEANUTS**, PEANUTS has its own dependencies. See the PEANUTS repository and documentation before generating the simulation samples.
 
