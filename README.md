@@ -87,22 +87,6 @@ python run.py \
     --seed 42
 ```
 
-## Model
-
-The surrogate model uses a convolutional neural-network architecture conditioned on the neutrino oscillation parameters. The network learns the relationship
-
-$$
-\{\theta_{12},\Delta m^2_{21},\ldots\}
-\longrightarrow
-P_{\alpha\rightarrow\beta}(E_\nu,\eta),
-$$
-
-where \(E_\nu\) is the neutrino energy and \(\eta\) characterizes the neutrino trajectory through the Earth.
-
-The goal is to replace repeated numerical solutions of the neutrino evolution equation with a fast neural-network inference.
-
-
-
 ## Citation
 
 If you use this repository in your research, please cite the associated publication:
