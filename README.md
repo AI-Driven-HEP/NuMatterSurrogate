@@ -36,8 +36,7 @@ Clone the repository:
 git clone https://github.com/AI-Driven-HEP/NuMatterSurrogate.git
 cd NuMatterSurrogate
 ```
-
-The repository contains PEANUTS as a Git submodule. To initialize it:
+In case you need to use PEANUTS simulation, the repository contains PEANUTS as a Git submodule. To initialize it:
 
 ```bash
 git submodule update --init --recursive
@@ -59,6 +58,10 @@ NuMatterSurrogate/
 ```
 
 ---
+
+# Inference Mode
+
+
 
 # Training Mode
 
