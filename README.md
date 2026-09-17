@@ -21,6 +21,7 @@ The NuMatterSurrogate training and inference code requires:
 * Python 3
 * NumPy
 * PyTorch
+* Matplotlib
 
 
 If the training data are generated with **PEANUTS**, PEANUTS has its own dependencies. See the PEANUTS repository and documentation before generating the simulation samples.
