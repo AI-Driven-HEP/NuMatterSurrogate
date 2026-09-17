@@ -10,8 +10,6 @@ A parameter conditioned convolutional neural network with a ResNet based encoder
 The current implementation focuses on the Earth-matter effect on solar neutrinos and predicts the energy- and trajectory-dependent neutrino transition probabilities from the relevant oscillation parameters.
 
 
-
-
 ---
 
 ## Requirements
@@ -61,7 +59,9 @@ NuMatterSurrogate/
 
 # Inference Mode
 
+Download the best checkpoints and simulation data from here :
 
+see the notebooks for instructions examples
 
 # Training Mode
 
@@ -69,9 +69,38 @@ Training NuMatterSurrogate requires a set of numerical Earth-matter neutrino sim
 
 There are two possible ways to obtain these simulations.
 
-## Option 1: Use your own simulation
+## Option 1: Generate simulations with PEANUTS
 
-You can generate the training samples using your own neutrino-oscillation code.
+NuMatterSurrogate can be trained using simulations generated with **PEANUTS**.
+
+PEANUTS is an independent software package for calculating solar-neutrino propagation and Earth-matter effects. It is included in this repository as an external Git submodule.
+
+The upstream PEANUTS project has its own installation procedure and dependencies. Please follow its documentation for installing and running PEANUTS.
+
+To have the simulation data simply run
+
+
+```python
+
+python src/generate_samples.py
+
+```
+
+PEANUTS documentation:
+
+https://github.com/michelelucente/PEANUTS
+
+PEANUTS is described in:
+
+T. E. Gonzalo and M. Lucente,
+*PEANUTS: a software for the automatic computation of solar neutrino flux and its propagation within Earth*,
+Eur. Phys. J. C 84 (2024) 119, arXiv:2303.15527.
+
+---
+
+## Option 2: Use your own simulation
+
+You can also generate the training samples using your own neutrino-oscillation code.
 
 The simulation output must be provided as a NumPy `.npz` file containing the following two arrays:
 
@@ -108,38 +137,7 @@ parameter_samples.npz
 └── U_Evol    # (N, 192, 192, 3)
 ```
 
----
-
-## Option 2: Generate simulations with PEANUTS
-
-NuMatterSurrogate can also be trained using simulations generated with **PEANUTS**.
-
-PEANUTS is an independent software package for calculating solar-neutrino propagation and Earth-matter effects. It is included in this repository as an external Git submodule.
-
-The upstream PEANUTS project has its own installation procedure and dependencies. Please follow its documentation for installing and running PEANUTS.
-
-To have the simulation data simply run
-
-
-```python
-
-python src/generate_samples.py
-
-```
-
-PEANUTS documentation:
-
-https://github.com/michelelucente/PEANUTS
-
-PEANUTS is described in:
-
-T. E. Gonzalo and M. Lucente,
-*PEANUTS: a software for the automatic computation of solar neutrino flux and its propagation within Earth*,
-Eur. Phys. J. C 84 (2024) 119, arXiv:2303.15527.
-
----
-
-## Preparing the dataset
+### Preparing the dataset
 
 The raw `.npz` simulation file is converted into PyTorch datasets using:
 
