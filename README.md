@@ -1,8 +1,13 @@
-# A Surrogate Model to Solar Neutrino Earth Matter Effect
+# Fast Surrogate for the Earth Matter Effect on Solar Neutrinos
 
 A parameter conditioned convolutional neural network with a ResNet based encoder--decoder architecture for simulating the propagation of solar neutrinos through the Earth and the resulting matter effects.
 
 The current implementation focuses on the Earth-matter effect on solar neutrinos and predicts the energy- and trajectory-dependent neutrino transition probabilities from the relevant oscillation parameters.
+
+
+<p align="center">
+  <img src="images/image3_1_1.png" width="800">
+</p>
 
 ---
 
