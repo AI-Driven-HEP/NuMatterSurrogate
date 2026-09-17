@@ -1,7 +1,6 @@
 from pathlib import Path
 import argparse
 
-from src.dataset import prepare_dataset
 from src.train import train
 
 
