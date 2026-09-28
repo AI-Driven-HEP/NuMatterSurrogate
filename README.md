@@ -207,7 +207,7 @@ must be applied
 
 If you use this repository in your research, please cite the associated publication:
 
-> *Citation information will be added when the associated paper is published.*
+> *https://arxiv.org/abs/2609.25229*
 
 ## License
 
