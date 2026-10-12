@@ -120,6 +120,8 @@ Please follow the installation and usage instructions provided in the original r
 
 The generated simulation samples must be converted into the NumPy `.npz` format required by NuMatterSurrogate (see Option 2). In particular, the output should contain the two arrays `param` and `U_Evol`, with the shapes and parameter conventions described above.
 
+A detailed description of NuFast-Earth is provided in Peter B. Denton and Stephen J. Parke, [*NuFast-Earth: Efficient Atmospheric, Solar, and Supernova Neutrino Propagation Through the Earth*, Phys. Rev. D **113**, 053002 (2026)](https://doi.org/10.1103/jgw1-lnrl).
+
 ---
 
 ## Option 2: Use your own simulation
