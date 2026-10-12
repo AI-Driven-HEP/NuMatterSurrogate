@@ -80,7 +80,7 @@ Training NuMatterSurrogate requires a set of numerical Earth-matter neutrino sim
 
 There are two possible ways to obtain these simulations.
 
-Option 1: Generate simulations with PEANUTS or NuFast-Earth
+## Option 1: Generate simulations with PEANUTS or NuFast-Earth
 
 NuMatterSurrogate can be trained using simulations generated with **PEANUTS**.
 
