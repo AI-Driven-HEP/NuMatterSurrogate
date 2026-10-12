@@ -80,7 +80,7 @@ Training NuMatterSurrogate requires a set of numerical Earth-matter neutrino sim
 
 There are two possible ways to obtain these simulations.
 
-## Option 1: Generate simulations with PEANUTS
+Option 1: Generate simulations with PEANUTS or NuFast-Earth
 
 NuMatterSurrogate can be trained using simulations generated with **PEANUTS**.
 
@@ -106,6 +106,19 @@ PEANUTS is described in:
 T. E. Gonzalo and M. Lucente,
 *PEANUTS: a software for the automatic computation of solar neutrino flux and its propagation within Earth*,
 Eur. Phys. J. C 84 (2024) 119, arXiv:2303.15527.
+
+
+### Using NuFast-Earth
+
+Alternatively, the training data can be generated using **NuFast-Earth**, an independent C++ implementation for fast calculations of solar-neutrino propagation through the Earth and the associated matter effects.
+
+NuFast-Earth is available at:
+
+https://github.com/PeterDenton/NuFast-Earth
+
+Please follow the installation and usage instructions provided in the original repository.
+
+The generated simulation samples must be converted into the NumPy `.npz` format required by NuMatterSurrogate (see Option 2). In particular, the output should contain the two arrays `param` and `U_Evol`, with the shapes and parameter conventions described above.
 
 ---
 
